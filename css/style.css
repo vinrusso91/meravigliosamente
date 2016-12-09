@@ -21,9 +21,12 @@ nav .nav-wrapper {
 nav .brand-logo {
 font-family: 'Satisfy', cursive;
 }
-
-.parallax-container .header1 {
-  font-family: 'Satisfy', cursive;
+/*titolo associazione meravigliosamente*/
+.parallax-container .header {
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top:10%;
+  color: #ecfff8;
+  font-size: 3em;
 }
 
 
@@ -31,13 +34,28 @@ font-family: 'Satisfy', cursive;
 p {
   line-height: 2rem;
 }
+/*sottotitolo meravigliosamente*/
+.header1{
+  margin-top: 0%;
+font-family: 'Satisfy', cursive;
+font-size: 1.8em;
 
+   color :#EEE5E9;
+}
 
-
+/*bottone menu per telefonini*/
 .button-collapse {
   color: #85C7DE;
 }
 
+
+/* scritta vuoi rimanere aggiornato?*/
+.header2 {
+  margin-top: 10%;
+   color :#EEE5E9;
+  font-family: 'Satisfy', cursive;
+
+}
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -50,19 +68,7 @@ p {
   }
 
 
-.header{
-  margin-top:10%;
-  color: #ecfff8;
-   }
-
-
-.headero{
-  margin-top:5%;
-  font-size:1.3em;
-  font-family: 'Satisfy', cursive;
-  color: #ecfff8;
 }
-
 @media only screen and (max-width : 50px) {
   .parallax-container .section {
     position: absolute;
@@ -83,6 +89,9 @@ p {
   }
 }
 
+#registrazione .hradero {
+  color: #eee5e9; 
+}
 
 .container .col-servizio {
   margin-top: 10%;
